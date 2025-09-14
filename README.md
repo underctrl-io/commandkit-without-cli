@@ -18,8 +18,10 @@ pnpm install
 ```sh
 pnpm start
 # or
-node src/index.js
+COMMANDKIT_IS_CLI=true node src/index.js
 ```
+
+> Note: You must set `COMMANDKIT_IS_CLI=true` environment variable when running the project without CLI. Not setting this variable will cause the project to fail with errors.
 
 ## Useful links
 
