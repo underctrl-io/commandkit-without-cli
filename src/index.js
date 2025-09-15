@@ -1,4 +1,3 @@
-
 async function bootstrap() {
   // load .env
   process.loadEnvFile();
